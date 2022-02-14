@@ -23,7 +23,12 @@
   After running Npm install the user will run index.js and answer all the prompts given in the terminal
        
 
-https://user-images.githubusercontent.com/91762149/152713554-b233f50c-634f-4271-9000-a8c8e7f3c4ae.mp4
+![image](https://user-images.githubusercontent.com/91762149/153803701-15ef9360-027d-41e7-8e4a-8cd549d8d4e8.png)
+
+
+
+https://user-images.githubusercontent.com/91762149/153803677-aba24b53-33a2-436f-89f2-a1071a8a5b1a.mp4
+
 
 
 
