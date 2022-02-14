@@ -1,43 +1,24 @@
 const Employee = require('../lib/Employee.js')
 
-test('Create employee object', () => {
+test("Makes object", () => {
+  const test = new Employee();
+  expect(typeof(test)).toBe("object");
+});
 
-    const employee = new Employee('Chris', '1', 'mcleod32@live.com')
+test("Sets name", () => {
+  const name = "Timmy";
+  const test = new Employee(name);
+  expect(test.name).toBe(name);
+});
 
-    expect(employee.name).toBe('Chris');
-    expect(employee.id).toBe('1');
-    expect(employee.email).toBe('mcleod32@live.com')
+test("Sets ID", () => {
+  const testValue = 100;
+  const test = new Employee("placeholder", testValue);
+  expect(test.id).toBe(testValue);
+});
 
-})
-
-    test('employee name', () => {
-
-        const employee = new Employee('Chris', '1', 'mcleod32@live.com')
-
-        expect(employee.getName).toBe('Chris')
-
-    })
-
-    test('employee id', () => {
-
-        const employee = new Employee('Chris', '1', 'mcleod32@live.com')
-
-        expect(employee.getId).toBe('1')
-
-    })
-
-    test('employee email', () => {
-
-        const employee = new Employee('Chris', '1', 'mcleod32@live.com')
-
-        expect(employee.getEmail).toBe('mcleod32@live.com')
-
-    })
-
-    test('role', () => {
-
-        const employee = new Employee('Chris', '1', 'mcleod32@live.com')
-
-        expect(employee.getRole).toBe('Employee')
-
-    })
+test("Sets Email", () => {
+  const testValue = "test@test.com";
+  const test = new Employee("placeholder", 1, testValue);
+  expect(test.email).toBe(testValue);
+});
