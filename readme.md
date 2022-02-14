@@ -27,7 +27,9 @@
 
 ## Walkthrough Video
 
-https://user-images.githubusercontent.com/91762149/153803677-aba24b53-33a2-436f-89f2-a1071a8a5b1a.mp4
+
+https://user-images.githubusercontent.com/91762149/153805994-12a1220b-fdf0-42c6-8610-6d42c6730d45.mp4
+
 
 
 
